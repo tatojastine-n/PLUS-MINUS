@@ -1,1 +1,2 @@
 # PLUS-MINUS
+This program solves the "Plus Minus" problem by calculating and printing the ratios of positive, negative, and zero elements in an integer array. It reads the array size n and the n space-separated integers into a vector using ltrim, rtrim, and split for input parsing. The plusMinus function loops through the array to count positives (>0), negatives (<0), and zeros (==0), then outputs each count divided by n as a double with 6 decimal places using fixed precision. 
